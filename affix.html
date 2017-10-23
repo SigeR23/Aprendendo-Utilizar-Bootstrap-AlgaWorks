@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Minha Página
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/affix.css">
+</head>
+<body data-spy="scroll" data-target="#menu" data-offset="100">
+	<div class="container">
+		<header>
+			<h1>Fixando Elemendo com Affix</h1>
+		</header>
+
+		<nav id="menu" data-spy="affix" data-offset="80">
+			<ul class="nav  nav-pills  nav-stacked">
+				<li class="active"><a href="#caixa-principal">Principal</a></li>
+				<li><a href="#caixa-perfil">Perfil</a></li>
+				<li><a href="#caixa-mensagem">Mensagem</a></li>
+
+			</ul>  
+		</nav>
+		<main>
+			<div class="row">
+				<div id="caixa-principal" class="caixa  caixa-principal    col-md-8  col-md-offset-4"><H1>PRINCIPAL</H1></div>
+			</div>
+			<div class="row">
+				<div id="caixa-perfil" class="caixa  caixa-perfil    col-md-8  col-md-offset-4"><H1>PERFIL</H1></div>
+			</div>
+			<div class="row">
+				<div id="caixa-mensagem" class="caixa  caixa-mensagem    col-md-8  col-md-offset-4"><H1>MENSAGEM</H1></div>
+			</div>
+		</main>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

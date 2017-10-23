@@ -1,0 +1,49 @@
+body {
+	min-height: 100vh;
+	background-color: #EEF;
+}
+header h1 {
+	line-height: 40px; 
+}
+.caixa {
+	width: 65%;
+	height: 800px;
+}
+
+.caixa-principal {
+	margin-top: 20px;
+	background-color: #AAF;
+}
+
+.caixa-perfil {
+	background-color: #AFA;
+}
+
+.caixa-mensagem {
+	background-color: #AFF;
+}
+
+#menu {
+
+
+	background-color: #fff;
+
+	
+	width: 300px;
+	padding: 5px;
+
+	border-radius: 5px;
+
+	top: 10px;
+
+}
+
+#menu.affix-top {
+	position: absolute;
+
+	top: 90px;
+}
+
+.nav-pills>li.active>a {
+	background-color: rgba(0, 0, 0, .8);
+}
